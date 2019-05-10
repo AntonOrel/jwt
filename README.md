@@ -28,6 +28,7 @@ JWT Signature:
 
 If the signature is valid and can be verified using the secret key, we can simply decode the payload and get the user information without going to database.
 There is an example below that shows the JWT token used in both encoded and decoded manners.
+!(https://www.google.com.ua/imgres?imgurl=https%3A%2F%2Fdab1nmslvvntp.cloudfront.net%2Fwp-content%2Fuploads%2F2016%2F06%2F1467283510jwt-debugger-1024x627.png&imgrefurl=https%3A%2F%2Fwww.sitepoint.com%2Fsecuring-your-iot-devices-and-services-with-json-web-tokens%2F&docid=qmf2fEJbRIxbzM&tbnid=2rbx4NlCytk5zM%3A&vet=10ahUKEwjZucTUvZDiAhUxxcQBHXWDAW4QMwhCKAMwAw..i&w=1024&h=627&bih=937&biw=1920&q=jwt%20encoded%20decoded%20scheme&ved=0ahUKEwjZucTUvZDiAhUxxcQBHXWDAW4QMwhCKAMwAw&iact=mrc&uact=8)
 
 <b>3.	General scheme of work</b>
 
