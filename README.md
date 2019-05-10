@@ -12,12 +12,12 @@ Here is an example of encoded JSON Web Token:
 
 A JWT consists of the following three parts: the header, the payload, and the signature.
 Simply, a JWT is a string consisting of three components, each component delimited by a “.” (period) character.
-The overall scheme is the following: <header>.<payload>.<signature>
--a.	Header. Algorithm & Token Type. A JSON (Base64 encoded) that has information about algorithm used (like HS256, RSA) and so on.
+The overall scheme is the following: header.payload.signature
+a.	Header. Algorithm & Token Type. A JSON (Base64 encoded) that has information about algorithm used (like HS256, RSA) and so on.
   
--b.	Payload: Data. A JSON (Base64 encoded) that has information about the user.
+b.	Payload: Data. A JSON (Base64 encoded) that has information about the user.
 
--c.	Signature: A string that was generated using #a + #b + secret key (a secret that only the server knows), using the algorithm mentioned in #a.
+c.	Signature: A string that was generated using #a + #b + secret key (a secret that only the server knows), using the algorithm mentioned in #a.
 
 JWT Header:
 `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9`
