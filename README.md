@@ -40,7 +40,7 @@ There is an example below that shows the JWT token used in both encoded and deco
 
 <b>Refresh-token</b> allows customers to request new access-tokens after their lifetime. These tokens are usually issued for a long time.
 
-
+![alt-Scheme example](http://tinyurl.com/y24jfhqu "Scheme example")
 
 Usually the following scheme is implemented when using JSON tokens in client-server applications:
 1.	The client is authenticated in the application (for example, using a login and password).
