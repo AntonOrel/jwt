@@ -29,7 +29,8 @@ JWT Signature:
 If the signature is valid and can be verified using the secret key, we can simply decode the payload and get the user information without going to database.
 There is an example below that shows the JWT token used in both encoded and decoded manners.
 
-[!(https://cdn.auth0.com/blog/legacy-app-auth/legacy-app-auth-5.png)]
+!(https://res.cloudinary.com/dyyck73ly/image/upload/v1458077225/shoskufayqrg0ffwqqau.jpg)
+
 
 ### 3.	General scheme of work
 
