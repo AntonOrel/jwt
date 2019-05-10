@@ -36,6 +36,12 @@ There is an example below that shows the JWT token used in both encoded and deco
 
 ### 3.	General scheme of work
 
+<b>Access-token</b> contains the security credentials for a login session and identifies the user, the user's groups, the user's privileges, and, in some cases, a particular application.
+
+<b>Refresh-token</b> allows customers to request new access-tokens after their lifetime. These tokens are usually issued for a long time.
+
+
+
 Usually the following scheme is implemented when using JSON tokens in client-server applications:
 1.	The client is authenticated in the application (for example, using a login and password).
 2.	In case of successful authentication, the server sends access- and refresh-tokens to the client.
