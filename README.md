@@ -29,7 +29,6 @@ JWT Signature:
 If the signature is valid and can be verified using the secret key, we can simply decode the payload and get the user information without going to database.
 There is an example below that shows the JWT token used in both encoded and decoded manners.
 <b>3.	General scheme of work</b>
-============================
 Usually the following scheme is implemented when using JSON tokens in client-server applications:
 1.	The client is authenticated in the application (for example, using a login and password).
 2.	In case of successful authentication, the server sends access- and refresh-tokens to the client.
