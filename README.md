@@ -32,7 +32,7 @@ The overall scheme is the following: header.payload.signature
 If the signature is valid and can be verified using the secret key, we can simply decode the payload and get the user information without going to database.
 There is an example below that shows the JWT token used in both encoded and decoded manners.
 
-!(https://res.cloudinary.com/dyyck73ly/image/upload/v1458077225/shoskufayqrg0ffwqqau.jpg)
+![alt-Example](https://res.cloudinary.com/dyyck73ly/image/upload/v1458077225/shoskufayqrg0ffwqqau.jpg "Example")
 
 ### 3.	General scheme of work
 
