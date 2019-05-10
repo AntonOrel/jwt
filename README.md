@@ -2,7 +2,6 @@
 JSON Web Tokens (JWT)
 <hr>
 <b>1.	Overview</b>
-==============
 
 An abstract definition tells that a JSON Web Token (JWT) is a JSON object that is defined in RFC 7519 (open standard) as a safe way to represent a set of information between two parties.
 There is no need to contact a third-party service or keep JWTs in-memory between requests to confirm that the claim they carry is valid - this is because they carry a Message Authentication Code (MAC).
