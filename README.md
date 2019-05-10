@@ -1,5 +1,5 @@
-# jwt
-JSON Web Tokens (JWT)
+# JWT
+JSON Web Tokens
 <hr>
 <b>1.	Overview</b>
 
@@ -8,7 +8,7 @@ There is no need to contact a third-party service or keep JWTs in-memory between
 Here is an example of encoded JSON Web Token:
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ
 <hr>
-h1 2.	The Structure
+<b>2.	The Structure</b>
 ===================
 
 A JWT consists of the following three parts: the header, the payload, and the signature.
