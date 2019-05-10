@@ -1,7 +1,7 @@
 # jwt
 JSON Web Tokens (JWT)
 <hr>
-h1 1.	Overview
+<b>1.	Overview</b>
 ==============
 
 An abstract definition tells that a JSON Web Token (JWT) is a JSON object that is defined in RFC 7519 (open standard) as a safe way to represent a set of information between two parties.
