@@ -16,11 +16,16 @@ The overall scheme is the following: <header>.<payload>.<signature>
 a.	Header. Algorithm & Token Type. A JSON (Base64 encoded) that has information about algorithm used (like HS256, RSA) and so on.
 b.	Payload: Data. A JSON (Base64 encoded) that has information about the user.
 c.	Signature: A string that was generated using #a + #b + secret key (a secret that only the server knows), using the algorithm mentioned in #a.
+
 JWT Header:
 `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9`
-JWT Payload: `eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9`
+
+JWT Payload:
+`eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9`
+
 JWT Signature:
 `TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ`
+
 If the signature is valid and can be verified using the secret key, we can simply decode the payload and get the user information without going to database.
 There is an example below that shows the JWT token used in both encoded and decoded manners.
 <b>3.	General scheme of work</b>
