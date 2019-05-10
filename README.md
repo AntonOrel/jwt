@@ -1,14 +1,14 @@
 # JWT
 JSON Web Tokens
 
-<b>1.	Overview</b>
+### 1.	Overview
 
 An abstract definition tells that a JSON Web Token (JWT) is a JSON object that is defined in RFC 7519 (open standard) as a safe way to represent a set of information between two parties.
 There is no need to contact a third-party service or keep JWTs in-memory between requests to confirm that the claim they carry is valid - this is because they carry a Message Authentication Code (MAC).
 Here is an example of encoded JSON Web Token:
 `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ`
 
-<b>2.	The Structure</b>
+### 2.	The Structure
 
 A JWT consists of the following three parts: the header, the payload, and the signature.
 Simply, a JWT is a string consisting of three components, each component delimited by a “.” (period) character.
@@ -29,9 +29,9 @@ JWT Signature:
 If the signature is valid and can be verified using the secret key, we can simply decode the payload and get the user information without going to database.
 There is an example below that shows the JWT token used in both encoded and decoded manners.
 
-!(https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2016/06/1467283510jwt-debugger-1024x627.png)
+!(https://cdn.auth0.com/blog/legacy-app-auth/legacy-app-auth-5.png)
 
-<b>3.	General scheme of work</b>
+### 3.	General scheme of work
 
 Usually the following scheme is implemented when using JSON tokens in client-server applications:
 1.	The client is authenticated in the application (for example, using a login and password).
