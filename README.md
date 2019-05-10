@@ -14,19 +14,19 @@ A JWT consists of the following three parts: the header, the payload, and the si
 Simply, a JWT is a string consisting of three components, each component delimited by a “.” (period) character.
 The overall scheme is the following: header.payload.signature
 
-a.	Header. Algorithm & Token Type. A JSON (Base64 encoded) that has information about algorithm used (like HS256, RSA) and so on.
+<b>a.	Header:</b> Algorithm & Token Type. A JSON (Base64 encoded) that has information about algorithm used (like HS256, RSA) and so on.
   
-b.	Payload: Data. A JSON (Base64 encoded) that has information about the user.
+<b>b.	Payload:</b> Data. A JSON (Base64 encoded) that has information about the user.
 
-c.	Signature: A string that was generated using #a + #b + secret key (a secret that only the server knows), using the algorithm mentioned in #a.
+<b>c.	Signature:</b> A string that was generated using #a + #b + secret key (a secret that only the server knows), using the algorithm mentioned in #a.
 
-JWT Header:
+<b>JWT Header:</b>
 `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9`
 
-JWT Payload:
+<b>JWT Payload:</b>
 `eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9`
 
-JWT Signature:
+<b>JWT Signature:</b>
 `TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ`
 
 If the signature is valid and can be verified using the secret key, we can simply decode the payload and get the user information without going to database.
